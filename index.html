@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio | Stellar UI</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="styles.css"> 
+
+</head>
+<body>
+
+    <div class="particle" style="--primary-accent-rgb: 138, 43, 226;"></div>
+    <div class="particle" style="--secondary-accent-rgb: 0, 188, 212;"></div>
+    <div class="particle" style="--primary-accent-rgb: 138, 43, 226;"></div>
+    <div class="particle" style="--secondary-accent-rgb: 0, 188, 212;"></div>
+    <div class="particle" style="--primary-accent-rgb: 138, 43, 226;"></div>
+
+    <header id="header">
+        <div class="container">
+            <a href="#home" class="logo">Dev<span>Folio</span></a>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero reveal">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="greeting">Hello, I'm</p>
+                    <h1 class="name">Mahmoud Ashraf</h1>
+                    <h2 class="tagline">
+                        A passionate <span id="typing-text" class="typing-effect"></span>
+                    </h2>
+                    <p style="color: var(--text-muted); margin-bottom: 30px; max-width: 500px;">
+                        I craft modern, robust, and user-centric web applications using cutting-edge front-end technologies.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary"><i class="fas fa-handshake"></i>Hire Me</a>
+                        <a href="#portfolio" class="btn btn-outline"><i class="fas fa-eye"></i>View Portfolio</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+    <img src="image.jpg" alt="My Image" class="hero-avatar">
+</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="subtitle">GET TO KNOW</p>
+                <h2 class="title">About Me</h2>
+            </div>
+            <div class="about-content reveal">
+                <div class="about-image">
+                    <img src="http://googleusercontent.com/image_collection/image_retrieval/some_id_string" alt="Developer working on a project" style="width: 100%; height: auto;">
+                </div>
+                <div class="about-text">
+                    <h3>A Dedicated Software Engineer</h3>
+                    <p>
+                        I specialize in building captivating and highly functional web interfaces. With 2 years of experience, my focus is on **clean code, accessibility, and performance**. I enjoy transforming complex challenges into elegant digital solutions.
+                    </p>
+                    <p>
+                        When not coding, I enjoy contributing to open-source projects and mentoring junior developers.
+                    </p>
+                    <div class="personal-info">
+                        <div class="info-item"><span>Email:</span> <strong>Mahmoudashrafmohamed58@gmail.com</strong></div>
+                        <div class="info-item"><span>Phone:</span> <strong>(+20) 111 004 2313</strong></div>
+                        <div class="info-item"><span>From:</span> <strong>Cairo,Egypt (Open to relocation)</strong></div>
+                        <div class="info-item"><span>Freelance:</span> <strong class="highlight">Available</strong></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="subtitle">EXPERTISE</p>
+                <h2 class="title">My Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card reveal">
+                    <i class="fab fa-react skill-icon"></i>
+                    <h3>React / Next.js</h3>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" data-level="95%"></div>
+                    </div>
+                    <span class="skill-percentage">95%</span>
+                </div>
+                <div class="skill-card reveal">
+                    <i class="fab fa-js skill-icon"></i>
+                    <h3>JavaScript (ES6+)</h3>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" data-level="85%"></div>
+                    </div>
+                    <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-card reveal">
+                    <i class="fab fa-node-js skill-icon"></i>
+                    <h3>Node.js / Express</h3>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" data-level="75%"></div>
+                    </div>
+                    <span class="skill-percentage">75%</span>
+                </div>
+                <div class="skill-card reveal">
+                    <i class="fab fa-sass skill-icon"></i>
+                    <h3>CSS3 / SASS</h3>
+                    <div class="progress-bar-container">
+                        <div class="progress-bar" data-level="85%"></div>
+                    </div>
+                    <span class="skill-percentage">85%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="subtitle">MY LATEST WORK</p>
+                <h2 class="title">Portfolio</h2>
+            </div>
+
+            <div class="portfolio-filters reveal">
+                <div class="filter-btn active" data-filter="all">All</div>
+                <div class="filter-btn" data-filter="web">Web Development</div>
+                <div class="filter-btn" data-filter="app">Mobile Apps</div>
+                <div class="filter-btn" data-filter="design">UI/UX Design</div>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item reveal" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">E-Commerce App</div>
+                        <div class="overlay-icons">
+                            <a href="#" target="_blank"><i class="fas fa-eye"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <p class="category">Web Development</p>
+                        <h3>Modern E-Commerce Site</h3>
+                        <p>Built with Next.js, Stripe integration, and complex state management.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal" data-category="app">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">Fitness Tracker</div>
+                        <div class="overlay-icons">
+                            <a href="#" target="_blank"><i class="fas fa-eye"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <p class="category">Mobile Apps</p>
+                        <h3>Native Fitness Tracker</h3>
+                        <p>React Native application tracking user activity and heart rate data.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal" data-category="design">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">SaaS Dashboard UI</div>
+                        <div class="overlay-icons">
+                            <a href="#" target="_blank"><i class="fas fa-eye"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <p class="category">UI/UX Design</p>
+                        <h3>SaaS Analytics Dashboard</h3>
+                        <p>Complete redesign focused on data visualization and accessibility.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal" data-category="web">
+                    <div class="portfolio-image">
+                        <div class="project-placeholder">Blog Platform</div>
+                        <div class="overlay-icons">
+                            <a href="#" target="_blank"><i class="fas fa-eye"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <p class="category">Web Development</p>
+                        <h3>Headless CMS Blog</h3>
+                        <p>Serverless architecture blog using GraphQL and Gatsby.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="subtitle">CLIENT FEEDBACK</p>
+                <h2 class="title">Testimonials</h2>
+            </div>
+
+            <div class="testimonial-carousel reveal">
+                <div class="carousel-track">
+                    <div class="testimonial-card">
+                        <p class="testimonial-quote">
+                            "The development speed and quality were outstanding. [Mahmoud Ashraf] brought strategic thinking and impeccable execution to the table, delivering a product far beyond our expectations."
+                        </p>
+                        <div class="client-info">
+                            <img src="http://googleusercontent.com/image_collection/image_retrieval/some_id_string" alt="Client 1">
+                            <p class="name">Sarah L.</p>
+                            <p class="title">CTO, Tech Solutions</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-quote">
+                            "Responsive design was flawless, and the dark theme is genuinely stunning. A true professional who is reliable and communicative throughout the entire project lifecycle."
+                        </p>
+                        <div class="client-info">
+                            <img src="http://googleusercontent.com/image_collection/image_retrieval/some_id_string" alt="Client 2">
+                            <p class="name">Michael K.</p>
+                            <p class="title">Lead Designer, Design Agency</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-quote">
+                            "Exceptional attention to detail. The skill progression animations and portfolio filtering made the site feel incredibly modern and engaging. Highly recommended!"
+                        </p>
+                        <div class="client-info">
+                            <img src="https://www.freepik.es/vector-gratis/mujer-sonriente-cabello-trenzado_370747984.htm" alt="Client 3">
+                            <p class="name">Jessica B.</p>
+                            <p class="title">Project Manager, Startup</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-nav reveal">
+                <div class="nav-dot active"></div>
+                <div class="nav-dot"></div>
+                <div class="nav-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="subtitle">LET'S CONNECT</p>
+                <h2 class="title">Get In Touch</h2>
+            </div>
+            <div class="contact-grid reveal">
+                <div class="contact-details">
+                    <h3 style="color: var(--text-light); margin-bottom: 20px;">Contact Information</h3>
+                    <div class="contact-info-list">
+                        <div><i class="fas fa-envelope"></i> mahmoudashrafmohamed58@gmail.com</div>
+                        <div><i class="fas fa-phone-alt"></i> (+20) 111 004 2313</div>
+                        <div><i class="fas fa-map-marker-alt"></i> Cairo, Egypt (Open to relocation)</div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i>Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <a href="#" class="logo">Dev<span>Folio</span></a>
+            <p>&copy; 2025. All Rights Reserved.</p>
+            <p>Designed and Built by Mahmoud Ashraf.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
